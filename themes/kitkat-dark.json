@@ -1,0 +1,192 @@
+{
+  // ======================================================
+  // Chocolate · KitKat Dark
+  // Bold red + cream dark theme
+  // ======================================================
+
+  "name": "Chocolate KitKat Dark",
+  "type": "dark",
+
+  // Enable modern semantic highlighting
+  "semanticHighlighting": true,
+
+  // ======================================================
+  // UI COLORS
+  // ======================================================
+  "colors": {
+    /************* EDITOR *************/
+    "editor.background": "#1A0004",
+    "editor.foreground": "#FFF5F5",
+    "editorCursor.foreground": "#FFFFFF",
+
+    "editor.selectionBackground": "#FF4D4D55",
+    "editor.selectionHighlightBackground": "#FF4D4D33",
+    "editor.wordHighlightBackground": "#FFFFFF12",
+    "editor.wordHighlightStrongBackground": "#FF6B6B33",
+
+    "editor.findMatchHighlightBackground": "#FF6B6B55",
+
+    // Bracket matching (important UX)
+    "editorBracketMatch.background": "#FF4D4D33",
+    "editorBracketMatch.border": "#FF4D4D",
+
+    "editorLineNumber.foreground": "#C9A3A3",
+    "editorLineNumber.activeForeground": "#FFFFFF",
+
+    "editorError.foreground": "#FF3B3B",
+    "editorWarning.foreground": "#FFC857",
+    "editorInfo.foreground": "#9CDCFE",
+
+    "editorWidget.background": "#2B0008",
+    "focusBorder": "#FFFFFF",
+
+    // Generic selection
+    "selection.background": "#FF4D4D55",
+
+    /************* TITLE BAR *************/
+    "titleBar.activeBackground": "#2B0008",
+    "titleBar.activeForeground": "#FFF5F5",
+    "titleBar.inactiveBackground": "#1A0004",
+    "titleBar.inactiveForeground": "#C9A3A3",
+    "titleBar.border": "#00000040",
+
+    /************* ACTIVITY BAR *************/
+    "activityBar.background": "#1A0004",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBar.inactiveForeground": "#C9A3A380",
+    "activityBar.activeBorder": "#FF4D4D",
+
+    "activityBarBadge.background": "#FF4D4D",
+    "activityBarBadge.foreground": "#1A0004",
+
+    /************* SIDEBAR *************/
+    "sideBar.background": "#1A0004",
+    "sideBar.foreground": "#FFF5F5",
+    "sideBarTitle.foreground": "#FF6B6B",
+    "sideBarSectionHeader.background": "#2B0008",
+
+    /************* TABS *************/
+    "tab.activeBackground": "#2B0008",
+    "tab.inactiveBackground": "#1A0004",
+    "tab.activeBorderTop": "#FF4D4D",
+    "tab.unfocusedActiveBorderTop": "#FF6B6B",
+    "tab.inactiveForeground": "#C9A3A3",
+    "tab.border": "#00000040",
+
+    /************* PANEL *************/
+    "panel.background": "#1A0004",
+    "panel.border": "#FF4D4D44",
+    "panelTitle.activeForeground": "#FF6B6B",
+    "panelTitle.inactiveForeground": "#C9A3A3",
+
+    /************* STATUS BAR *************/
+    "statusBar.background": "#1A0004",
+    "statusBar.foreground": "#FFF5F5",
+    "statusBar.debuggingBackground": "#FF4D4D",
+    "statusBar.debuggingForeground": "#1A0004",
+
+    /************* TERMINAL *************/
+    "terminal.foreground": "#FFF5F5",
+    "terminalCursor.foreground": "#FFFFFF",
+    "terminal.selectionBackground": "#FF4D4D55",
+
+    /************* BREADCRUMBS *************/
+    "breadcrumb.foreground": "#C9A3A3",
+    "breadcrumb.activeSelectionForeground": "#FF6B6B",
+    "breadcrumbPicker.background": "#2B0008",
+
+    /************* INPUTS, MENUS & LISTS *************/
+    "dropdown.background": "#2B0008",
+    "input.background": "#2B0008",
+
+    "menu.background": "#2B0008",
+    "menu.foreground": "#FFF5F5",
+    "menu.selectionBackground": "#FF4D4D55",
+    "menu.selectionForeground": "#FFFFFF",
+
+    "list.activeSelectionBackground": "#FF4D4D55",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.hoverBackground": "#FF4D4D33",
+    "list.hoverForeground": "#FFFFFF",
+
+    /************* BUTTON *************/
+    "button.background": "#FF4D4D",
+    "button.foreground": "#1A0004",
+
+    /************* NOTIFICATIONS *************/
+    "notifications.background": "#2B0008",
+    "notificationLink.foreground": "#FF6B6B",
+
+    /************* GIT *************/
+    "gitDecoration.addedResourceForeground": "#C3E88D",
+    "gitDecoration.modifiedResourceForeground": "#FFC857",
+    "gitDecoration.deletedResourceForeground": "#FF6B6B",
+
+    /************* MINIMAP *************/
+    "minimap.selectionHighlight": "#FF4D4D33"
+  },
+
+  // ======================================================
+  // SEMANTIC TOKENS (MODERN)
+  // ======================================================
+  "semanticTokenColors": {
+    "comment": {
+      "foreground": "#C9A3A3",
+      "fontStyle": "italic"
+    },
+    "string": "#FF4D4D",
+    "keyword": "#FF6B6B",
+    "function": "#FFD1A8",
+    "method": "#FFD1A8",
+    "variable": "#FFF5F5",
+    "parameter": "#FFC857",
+    "class": "#FFC857",
+    "property": "#FF9F9F",
+    "enumMember": "#C3E88D",
+    "number": "#FF9F9F",
+    "type": "#9CDCFE"
+  },
+
+  // ======================================================
+  // TEXTMATE TOKENS (BACKWARD COMPATIBILITY)
+  // ======================================================
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#C9A3A3",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#FF4D4D"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": {
+        "foreground": "#FF6B6B"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#FFD1A8"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#FFF5F5"
+      }
+    },
+    {
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#FFC857"
+      }
+    }
+  ]
+}

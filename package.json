@@ -1,0 +1,48 @@
+{
+  "name": "chocolate-themes",
+  "displayName": "Chocolate Themes",
+  "description": "A collection of chocolate-inspired dark themes for Visual Studio Code.",
+  "version": "0.1.0",
+  "publisher": "ROSHANK",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "ROSHAN K"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Roshan0310/vscode-chocolate-themes"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme",
+    "chocolate",
+    "vscode theme"
+  ],
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./assets/icons/version-1-icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chocolate · Dairy Milk Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dairy-milk-dark.json"
+      },
+      {
+        "label": "Chocolate · KitKat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kitkat-dark.json"
+      },
+      {
+        "label": "Chocolate · Snickers",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snickers-dark.json"
+      }
+    ]
+  }
+}
