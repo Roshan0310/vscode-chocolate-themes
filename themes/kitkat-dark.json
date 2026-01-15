@@ -1,7 +1,6 @@
 {
   // ======================================================
   // Chocolate · KitKat Dark
-  // Bold red + cream dark theme
   // ======================================================
 
   "name": "Chocolate KitKat Dark",
@@ -65,7 +64,8 @@
     "sideBarTitle.foreground": "#FF6B6B",
     "sideBarSectionHeader.background": "#2B0008",
 
-    /************* TABS *************/
+    /************* EDITOR GROUP / TABS (FIX) *************/
+
     "tab.activeBackground": "#2B0008",
     "tab.inactiveBackground": "#1A0004",
     "tab.activeBorderTop": "#FF4D4D",
@@ -73,6 +73,18 @@
     "tab.inactiveForeground": "#C9A3A3",
     "tab.border": "#00000040",
 
+    "editorGroupHeader.background": "#1A0004",
+    "editorGroupHeader.tabsBackground": "#1A0004",
+    "editorGroupHeader.tabsBorder": "#00000040",
+
+    "editorGroup.border": "#00000040",
+    "editorGroup.emptyBackground": "#1A0004",
+
+    "tab.hoverBackground": "#3A0010",
+    "tab.hoverForeground": "#FFFFFF",
+
+    "tab.unfocusedActiveBackground": "#1A0004",
+    "tab.unfocusedActiveForeground": "#C9A3A3",
     /************* PANEL *************/
     "panel.background": "#1A0004",
     "panel.border": "#FF4D4D44",

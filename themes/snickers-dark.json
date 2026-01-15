@@ -1,7 +1,6 @@
 {
   // ======================================================
-  // 🟤 Chocolate · Snickers Dark
-  // Rich chocolate + caramel + peanut inspired theme
+  // Chocolate · Snickers Dark
   // ======================================================
   "name": "Chocolate Snickers Dark",
   "type": "dark",
@@ -64,13 +63,27 @@
     "sideBarTitle.foreground": "#D18B47",
     "sideBarSectionHeader.background": "#1F120A",
 
-    /************* TABS *************/
+    /************* EDITOR GROUP / TABS (FIX) *************/
+
     "tab.activeBackground": "#1F120A",
     "tab.inactiveBackground": "#140A05",
     "tab.activeBorderTop": "#E6C38B",
     "tab.unfocusedActiveBorderTop": "#D18B47",
     "tab.inactiveForeground": "#BFAE9F",
     "tab.border": "#00000040",
+
+    "editorGroupHeader.background": "#140A05",
+    "editorGroupHeader.tabsBackground": "#140A05",
+    "editorGroupHeader.tabsBorder": "#00000040",
+
+    "editorGroup.border": "#00000040",
+    "editorGroup.emptyBackground": "#140A05",
+
+    "tab.hoverBackground": "#2A180D",
+    "tab.hoverForeground": "#FFFFFF",
+
+    "tab.unfocusedActiveBackground": "#140A05",
+    "tab.unfocusedActiveForeground": "#BFAE9F",
 
     /************* PANEL *************/
     "panel.background": "#140A05",

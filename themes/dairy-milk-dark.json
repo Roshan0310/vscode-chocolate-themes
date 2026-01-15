@@ -1,7 +1,6 @@
 {
   // ======================================================
   // Chocolate · Dairy Milk Dark
-  // Premium purple + gold dark theme
   // ======================================================
   "name": "Chocolate Dairy Milk Dark",
   "type": "dark",
@@ -75,13 +74,25 @@
     "sideBarTitle.foreground": "#FFD966",
     "sideBarSectionHeader.background": "#24104F",
 
-    /************* TABS *************/
+    /************* EDITOR GROUP / TABS (FIXED AREA) *************/
     "tab.activeBackground": "#24104F",
     "tab.inactiveBackground": "#1A0A36",
     "tab.activeBorderTop": "#FFD966",
     "tab.unfocusedActiveBorderTop": "#C792EA",
     "tab.inactiveForeground": "#B8AED6",
     "tab.border": "#00000040",
+    "editorGroupHeader.background": "#16082F",
+    "editorGroupHeader.tabsBackground": "#16082F",
+    "editorGroupHeader.tabsBorder": "#00000040",
+
+    "editorGroup.border": "#00000040",
+    "editorGroup.emptyBackground": "#1B0B3A",
+
+    "tab.hoverBackground": "#2F1366",
+    "tab.hoverForeground": "#FFFFFF",
+
+    "tab.unfocusedActiveBackground": "#1B0B3A",
+    "tab.unfocusedActiveForeground": "#C6BCE6",
 
     /************* PANEL *************/
     "panel.background": "#16082F",
